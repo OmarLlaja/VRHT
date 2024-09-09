@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 500px; /* Establece un tamaño máximo para el formulario */
+  overflow-y: auto; /* Agrega un desplazamiento vertical cuando sea necesario */
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 300px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: calc(100% - 20px);
+  padding: 5px;
+  border: 1px solid #f30909;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 0px; /* Ajusta el ancho automáticamente */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e862a;
+  color: #fff;
+  cursor: pointer;
+}
+
+button {
+  color: white;
+}
+
+button:hover {
+  background-color: #f72a2a;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.body {
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+
+
+
+
