@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="http://localhost/COLEGIO1.0/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <title>I.E Victor Raul Haya de la Torre</title>
+</head>
+
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>VICTOR RAUL HAYA DE LA TORRE</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">I.E VRHT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#history">Historia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-info text-white" href="login.php">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="py-5">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="./assets/img/cole1.jpeg" alt="Image 1" class="img-fluid">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./assets/img/fondo1.jpg" alt="Image 2" class="img-fluid">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./assets/img/cole3.jpeg" alt="Image 3" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Acerca de</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="./assets/img/nosotros.jpeg" alt="Nosotros" class="circle-image img-fluid">
+                    <p class="mt-3 text-justify">La institución educativa "Víctor Raúl Haya de la Torre" en Santa Clara Callayuc es un referente de excelencia académica y formación integral. Comprometida con el desarrollo personal y profesional de sus estudiantes, promueve un ambiente de aprendizaje enriquecedor, fomentando la participación activa, el pensamiento crítico y la formación en valores éticos. Con un cuerpo docente dedicado y actualizado, la institución prepara a sus estudiantes para enfrentar los desafíos del mundo actual, combinando la excelencia académica con una educación en valores sólidos.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="./assets/img/mision.jpeg" alt="Misión" class="circle-image img-fluid">
+                    <h3 class="mt-3">Misión</h3>
+                    <p class="text-justify">"Somos una Institución Educativa que dentro del marco de la Constitución Política y la Educación Pública, brindamos una educación integral a los educandos, mediante equipos de trabajo, metodología activa, un diseño curricular diversificado y contextualizado, orientado a buscar en los alumnos y alumnas actitudes críticas, creativas y competitivas; que logren aprendizajes significativos, eleven la calidad de vida de los miembros de la comunidad educativa, para alcanzar el éxito y la superación, respetando sus valores y costumbres."</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="./assets/img/vision.jpeg" alt="Visión" class="circle-image img-fluid">
+                    <h3 class="mt-3">Visión</h3>
+                    <p class="text-justify">"Somos una Institución Educativa que brinda un servicio educativo de calidad, con docentes capacitados e innovadores que garanticen el logro de los aprendizajes significativos en los alumnos y alumnas, explotando su creatividad; apoyados con los avances de la tecnología haciendo uso de la tabletas, en una infraestructura adecuada, con laboratorio de ciencias, sala de cómputo y un buen clima Institucional; orientado a elevar la calidad de vida del centro poblado, preservando y aprovechando sosteniblemente los recursos naturales en beneficio de la comunidad educativa."</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="./assets/img/valores.jpeg" alt="Valores" class="circle-image img-fluid">
+                    <h3 class="mt-3 text-center">VALORES</h3>
+                    <div class="value-item">
+                        <h4>Disciplina:</h4>
+                        <p class="text-justify">Fomentamos la disciplina como un valor fundamental para el éxito académico y personal. En nuestra institución, promovemos el desarrollo de hábitos de estudio sólidos, el cumplimiento de normas y reglamentos, y el respeto por los horarios y compromisos. Creemos que la disciplina es esencial para alcanzar metas y objetivos tanto a corto como a largo plazo.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Perseverancia:</h4>
+                        <p class="text-justify">Valoramos la perseverancia como la capacidad de enfrentar desafíos y superar obstáculos con determinación y constancia. En nuestra institución, alentamos a nuestros estudiantes a no rendirse frente a las dificultades, a mantenerse enfocados en sus metas y a continuar esforzándose incluso cuando las cosas se pongan difíciles. Creemos que la perseverancia es fundamental para el crecimiento personal y el éxito a largo plazo.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Respeto:</h4>
+                        <p class="text-justify">El respeto es un valor fundamental en nuestra comunidad educativa. En nuestra institución, fomentamos el respeto mutuo entre estudiantes, docentes, personal administrativo y la comunidad en general. Valoramos la diversidad de opiniones, culturas y experiencias, y promovemos un ambiente donde todos se sientan valorados y respetados. Creemos que el respeto es esencial para construir relaciones positivas y un entorno de aprendizaje inclusivo y armonioso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="history" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestra Historia</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/img/fondo1.jpg" alt="Imagen histórica" class="img-fluid mb-4">
+                </div>
+                <div class="col-md-6">
+                    <p class="text-justify">La historia de la institución educativa "Víctor Raúl Haya de la Torre" en Santa Clara Callayuc, Cutervo, se entrelaza con la vida del centro poblado, que ha sido un punto crucial en la región. Desde sus inicios, la institución se ha dedicado a brindar educación de calidad y a fomentar el desarrollo integral de los estudiantes en un entorno que refleja la esencia de la vida en el lugar. A lo largo de los años, ha sido testigo de cambios significativos en la comunidad, adaptándose a las necesidades cambiantes y contribuyendo al progreso local.</p>
+                    <p class="text-justify">El centro poblado de Santa Clara Callayuc, donde se encuentra ubicada la institución, ha sido un lugar de importancia histórica y cultural. La institución educativa ha sido un pilar en esta comunidad, proporcionando educación y oportunidades para las generaciones locales. Su historia se entrelaza con la vida cotidiana del lugar, reflejando la importancia de la educación en un entorno rural y la influencia positiva que ha tenido en la vida de sus habitantes.</p>
+                    <p class="text-justify">A lo largo de los años, la institución ha evolucionado junto con la comunidad, adaptándose a los cambios sociales, económicos y culturales. Ha sido un faro de conocimiento y desarrollo, brindando a los estudiantes las herramientas necesarias para enfrentar los desafíos del mundo moderno, al tiempo que ha mantenido vivas las tradiciones y valores arraigados en la vida de la comunidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <address class="text-center">
+                <p>INSTITUCION EDUCATIVA VICTOR RAUL HAYA DE LA TORRE</p>
+                <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+                <p>Teléfono: +00 000 000 000</p>
+                <p>Email: <a href="mailto:contacto@institutoeducativo.edu" class="text-info"><i class="fas fa-envelope"></i> vrht@gmail.edu</a></p>
+                <p>Website: <a href="https://www.vrht.edu" class="text-info"><i class="fas fa-globe"></i> www.vrht.edu</a></p>
+                <p>Síguenos en:</p>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li><a href="https://web.facebook.com/profile.php?id=100057353113316" class="text-primary mx-2"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://wa.me/51989557073" class="text-success mx-2" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    <li><a href="https://www.instagram.com/institutoeducativo" class="text-danger mx-2"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </address>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 - VRHT
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-escgMGF7+TMO3w9Tcw5T07GFRI8nm3Sf48xGYU8kLk4P+8kv9KzQri5s/2nR4gMkP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.carousel').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+                infinite: true,
+                cssEase: 'linear',
+            });
+        });
+    </script>
+</body>
+
+</html>
